@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>Ultraviolet | Sophisticated Web Proxy</title>
+    <title>nblock | Ultraviolet Frontend</title>
     <meta
       name="description"
       content="Ultraviolet is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!"
@@ -23,6 +23,9 @@
     <meta name="googlebot" content="index, follow, snippet" />
     <link rel="shortcut icon" content="favicon.ico" />
     <link rel="stylesheet" href="index.css" />
+
+    <div class="cursor"></div>
+    <script src="cursor.js"></script>
     <script src="uv/uv.bundle.js" defer></script>
     <script src="uv/uv.config.js" defer></script>
     <script src="register-sw.js" defer></script>
@@ -67,14 +70,7 @@
       title="Ultraviolet Logo"
       class="flex-center logo-wrapper header-center"
     >
-      <img class="logo" src="uv.png" alt="Ultraviolet" />
-      <h1>Ultraviolet | TN</h1>
-    </div>
-    <div class="flex-center desc">
-      <p>
-        Ultraviolet is highly sophisticated proxy used for evading internet
-        censorship.
-      </p>
+      <img class="logo" src="nblock2.png" alt="Ultraviolet" />
     </div>
 
     <form id="uv-form" class="flex-center">
@@ -83,38 +79,13 @@
         value="https://www.google.com/search?q=%s"
         type="hidden"
       />
+      <div id=bar>
       <input id="uv-address" type="text" placeholder="Search the web freely" />
+    </div>
     </form>
     <div class="desc left-margin">
       <p id="uv-error"></p>
       <pre id="uv-error-code"></pre>
     </div>
-    <footer>
-      <a
-        title="The TitaniumNetwork GitHub organization"
-        href="https://github.com/titaniumnetwork-dev"
-        >TitaniumNetwork</a
-      >
-      <a title="The TitaniumNetwork Discord" href="https://discord.gg/unblock"
-        >Discord</a
-      >
-      <a
-        title="The TompHTTP GitHub organization"
-        href="https://github.com/tomphttp"
-        >TompHTTP</a
-      >
-      <a
-        title="The official deployment repository for Ultraviolet"
-        href="https://github.com/titaniumnetwork-dev/Ultraviolet-App"
-        >GitHub</a
-      >
-      <a
-        title="License information"
-        href="credits.html"
-        style="margin-left: auto"
-        >Credits</a
-      >
-      <span>Ultraviolet &copy; TN 2023</span>
-    </footer>
   </body>
 </html>

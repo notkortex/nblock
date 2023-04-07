@@ -1,12 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
 
+* {
+	cursor: url('cursor.png'), auto;
+}
+
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
-  background: #111;
+  background: url('background.png');
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  backdrop-filter: blur(30px);
+	cursor: url('cursor.png'), auto;
 }
 
 .fa-magnifying-glass {
@@ -60,8 +70,8 @@ body {
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 25%;
+  height: 25%;
 }
 
 .logo-wrapper .text {
@@ -73,95 +83,42 @@ body {
   color: white;
 }
 
-footer {
-  margin-top: auto;
-  width: 93%;
-  align-self: center;
-  height: 80px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-footer a,
-footer span {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 15px;
-}
-
-footer a {
-  cursor: pointer;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-.desc p {
-  width: 560px;
-  color: rgba(253, 253, 253, 0.514);
-}
-
 #uv-address {
   background: none;
   font-family: inherit;
   padding: 0px 17px;
-  height: 48px;
-  border: 1px solid rgb(255, 255, 255, 0.2);
+  height: 58px;
+  border: 1px solid rgb(255, 255, 255, .2);
   color: var(--text-color);
   border-radius: 3px;
   outline: none;
-  width: 350px;
+  width: 550px;
   margin-top: 5px;
   border-radius: 50px;
   color: #fff;
   transition: border-radius 0.1s;
+  box-shadow: inset 0 0 0 1000px #1b1d25db;
 }
 
 #uv-address:focus {
   border: 1px solid rgba(253, 253, 253, 0.514);
-  border-radius: 6px;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 1000px #1b1d25db;
 }
 
-.credit {
-  border-radius: 10px;
-  padding: 10px;
-  display: block;
-  border: #fff 1px solid;
-  color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
+.cursor {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #eee;
+	left: 0;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	transition: width 1000ms, height 1000ms;
 }
 
-.credit label {
-  margin-left: auto;
-  margin-right: 15px;
-}
-
-.credit a,
-.credit label {
-  color: white;
-  text-decoration: underline;
-  text-align: right;
-}
-
-.credit pre {
-  display: none;
-  width: 100%;
-}
-
-.credit label::after {
-  content: "show license";
-  cursor: pointer;
-}
-
-.credit input:checked + label::after {
-  content: "hide license";
-}
-
-.credit input:checked ~ pre {
-  display: block;
+.cursor.large {
+	height: 70px;
+	width: 70px;
 }
