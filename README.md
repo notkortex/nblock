@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/nine4x/nblock/main/public/nblock.png" height="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nine4x/nblock/main/public/nblock.svg" height="200"></p>
 
 The deployable all-in-one bundle for nblock using Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
 
