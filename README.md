@@ -1,8 +1,8 @@
-<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nine4x/nblock/main/public/nblock.png" height="200"></p>
 
-<h1 align="center">Ultraviolet-App</h1>
+<h1 align="center">nblock</h1>
 
-The deployable all-in-one bundle for Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
+The deployable all-in-one bundle for nblock using Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
 
 ## Deployment
 
@@ -12,6 +12,9 @@ The deployable all-in-one bundle for Ultraviolet, a highly sophisticated proxy u
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Remix-on-Glitch)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-to-Koyeb)
 
-If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
+If you are deploying to an alternative service or to a server, to deploy via terminal.
 
-Additional information such as [customizing your frontend](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Customizing-your-frontend) can be found on the [wiki](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki).
+1. Go to the `TERMINAL`.
+2. Type `npm install`.
+3. Type `npm start`.
+4. nblock shoould start running on port 8080.

@@ -2,6 +2,6 @@
   "name": "nblock",
   "description": "Ultraviolet frontend instance",
   "repository": "https://github.com/nine4x/nblock",
-  "logo": "https://raw.githubusercontent.com/nine4x/nblock/main/static/public/nblock.png",
+  "logo": "https://raw.githubusercontent.com/nine4x/nblock/main/public/nblock.png",
   "keywords": ["tomp", "ultraviolet"]
 }
