@@ -1,5 +1,5 @@
 {
-  "name": "nblock",
+  "name": "nblock_proxy",
   "version": "1.0.0",
   "description": "Ultraviolet frontend instance",
   "type": "module",

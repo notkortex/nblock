@@ -1,7 +1,7 @@
 {
-  "name": "nblock",
+  "name": "nblock_proxy",
   "description": "Ultraviolet frontend instance",
-  "repository": "https://github.com/nine4x/nblock",
-  "logo": "https://raw.githubusercontent.com/nine4x/nblock/main/public/nblock.png",
+  "repository": "https://github.com/notkortex/nblock",
+  "logo": "https://raw.githubusercontent.com/notkortex/nblock/main/public/nblock.png",
   "keywords": ["tomp", "ultraviolet"]
 }
